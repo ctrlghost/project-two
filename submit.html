@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Submit a Strategy</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Submit Your Strategy</h1>
+<div style="text-align: center;">
+_________________________________________________________________________________________________________________________</div>
+<br>
+<div style="text-align: center;">
+    <img src="https://i0.wp.com/velemenyhuszarok.hu/wp-content/uploads//2021/03/LOL.jpg?fit=1920%2C1093&amp;ssl=1" width="500"></div>
+<div style="text-align: center;">
+    <h2><u>We love to hear from our audience!</u></h2>
+    <h4>Use the form below to submit your own strategy for a champion and we'll feature it on our page!</h4>
+_________________________________________________________________________________________________________________________</div>
+<br>
+<h2 style="text-align: center;">Your Strategy Submission</h2>
+<form action="submit_strategy.php" method="get" style="text-align: center;">
+ <label for="name">Summoner Name:</label>
+    <input type="text" id="name" name="name" required><br><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br><br>
+
+   <label for="champion">Champion:</label><br>
+    <select id="champion" name="champion">
+      <option value="ahri">Ahri</option>
+      <option value="ashe">Ashe</option>
+      <option value="jayce">Jayce</option>
+      <option value="senna">Senna</option>
+      <option value="warwick">Warwick</option>
+    </select><br><br>
+
+       <label for="strategy">Your Strategy:</label><br>
+    <textarea id="strategy" name="strategy" rows="10" cols="50" required></textarea><br><br>
+
+    <button type="submit">Submit</button>
+  </form>
+
+  <br>
+</body>
+<br>
+<body> <div style="text-align: center;">
+<a href="index.html">Back to Home</a></div>
+</body>
+</html>
